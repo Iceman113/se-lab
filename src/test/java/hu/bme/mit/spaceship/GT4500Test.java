@@ -24,6 +24,7 @@ public class GT4500Test {
 
     // Assert
     assertEquals(true, result);
+    System.out.println("True");
   }
 
   @Test
