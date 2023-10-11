@@ -1,0 +1,15 @@
+randomsolved
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch fixingacr
+# Cherry-pick currently in progress.
+#
+# Changes to be committed:
+#	new file:   "firstbug\357\200\272-="
+#	modified:   pom.xml
+#	modified:   src/main/java/hu/bme/mit/spaceship/TorpedoStore.java
+#
+# Changes not staged for commit:
+#	modified:   src/main/java/hu/bme/mit/spaceship/TorpedoStore.java
+#
