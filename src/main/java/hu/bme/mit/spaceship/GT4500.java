@@ -12,7 +12,7 @@ public class GT4500 implements SpaceShip {
 
   public GT4500() {
     this.primaryTorpedoStore = new TorpedoStore(10);
-    this.secondaryTorpedoStore = new TorpedoStore(10);
+    this.secondaryTorpedoStore = new TorpedoStore(20);
   }
 
   public boolean fireLaser(FiringMode firingMode) {
@@ -32,6 +32,8 @@ public class GT4500 implements SpaceShip {
   * 			- But if the store next in line is empty, the ship tries to fire the other store.
   * 			- If the fired store reports a failure, the ship does not try to fire the other one.
   * 	ALL:	tries to fire both of the torpedo stores.
+        -we need to check if we can fire with both of them(they are not empty).
+        -then we can shoot with them as a firelaser.
   *
   * @return whether at least one torpedo was fired successfully
   */
